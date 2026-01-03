@@ -234,15 +234,16 @@
         font-size: 1.4rem;
     }
         .img-size-1 {
-        width: 30rem !important;
-        height: 30rem !important;
+        width: 28rem !important;
+        height: 28rem !important;
         /* object-fit: cover; */
     }
 
     .a-img {
-        width: 30rem !important;
-        height: 30rem !important;
+        width: 28rem !important;
+        height: 28rem !important;
     }
 
 
 }
+
