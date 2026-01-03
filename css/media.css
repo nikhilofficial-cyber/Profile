@@ -1,0 +1,247 @@
+@media (max-width: 767px) {
+
+    .home-hero {
+        min-height: 85vh;
+        /* better than 50vh */
+        background-position: center top;
+    }
+
+    .home-hero h1 {
+        font-size: 2rem;
+    }
+
+    .home-hero h4 {
+        font-size: 1.1rem;
+    }
+
+    .home-hero p {
+        font-size: 0.95rem;
+    }
+
+    .lh-lg {
+        line-height: 1.4 !important;
+    }
+
+    .top-img,
+    .s-hr {
+        display: block !important;
+    }
+
+    #hobbies {
+        scroll-margin-top: 60rem;
+    }
+
+    .middle-img {
+        display: none;
+    }
+
+    .border-sv {
+        border: none !important;
+    }
+
+    #head {
+        height: 60vh;
+        width: auto;
+        background: #000;
+        position: relative;
+    }
+
+    .hobby-card {
+        height: 19rem !important;
+    }
+
+    .view img {
+        width: 25rem !important;
+        height: 19rem !important;
+    }
+
+    div[id] {
+        scroll-margin-top: 50px;
+    }
+
+    .img-size-1 {
+        width: 18rem !important;
+        height: 18rem !important;
+        /* object-fit: cover; */
+    }
+
+    .a-img {
+        width: 18rem !important;
+        height: 18rem !important;
+    }
+
+    #hobbies {
+        scroll-margin-top: 4rem !important;
+    }
+
+    .m-50 {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+
+    #screenMode {
+        margin-top: 100px !important;
+    }
+
+    .m-9 {
+        margin-top: -35px;
+    }
+
+    #about,
+    #education {
+        scroll-margin-top: 7rem !important;
+    }
+
+    #projects,
+    #skills {
+        scroll-margin-top: 4rem !important;
+    }
+
+    #hobbies {
+        scroll-margin-top: 4rem !important;
+    }
+
+    #contact {
+        scroll-margin-top: 6rem !important;
+    }
+    .vh-100{
+        height: auto !important;
+    }
+}
+
+@media (min-width: 767px) {
+    .port {
+        height: 15rem !important;
+    }
+
+    #hobbies {
+        scroll-margin-top: 55rem;
+    }
+
+    .home-hero {
+        min-height: 90vh;
+        background-position: center;
+    }
+
+    .hobby-card {
+        height: 20rem !important;
+    }
+
+    .view img {
+        width: 25rem !important;
+        height: 20rem !important;
+    }
+    
+}
+
+
+@media (min-width:767px) and (max-width: 1000px) {
+    .img-size-1 {
+        width: 22rem !important;
+        height: 25rem !important;
+        /* object-fit: cover; */
+    }
+
+    .a-img {
+        width: 22rem !important;
+        height: 25rem !important;
+    }
+    
+}
+@media (min-width:767px) and (max-width: 1200px) {
+    #about,
+    #education {
+        scroll-margin-top: 5rem !important;
+    }
+
+    #projects,
+    #skills {
+        scroll-margin-top: 5rem !important;
+    }
+
+    #hobbies {
+        scroll-margin-top: 3rem !important;
+    }
+
+    #contact {
+        scroll-margin-top: 4rem !important;
+        margin-bottom: 0rem !important;
+    }
+     .h-100{
+        height: auto !important;
+    }
+    .vh-100{
+        height: auto !important;
+    }
+    footer{
+       margin-bottom: 0% !important;
+    }
+    
+}
+
+@media (min-width:1200px) and (max-width: 1500px) {
+    /* .img-size-1 {
+        width: 55vw !important;
+        height: 55vw !important;
+    } */
+
+
+    .home-hero {
+        min-height: 100vh;
+        background-position: center;
+    }
+
+    .view img {
+        width: 25rem !important;
+        height: 17rem !important;
+    }
+
+    .hobby-card {
+        max-width: 25rem !important;
+        height: 15rem !important;
+    }
+
+    #about,
+    #education {
+        scroll-margin-top: 5rem !important;
+    }
+
+    #projects,
+    #skills {
+        scroll-margin-top: 5rem !important;
+    }
+
+    #hobbies {
+        scroll-margin-top: 3rem !important;
+    }
+
+    #contact {
+        scroll-margin-top: 2rem !important;
+    }
+    
+   
+}
+
+@media (max-width: 1500px) {
+ .vh100{
+    height: auto !important;
+ }
+}
+@media (min-width: 1500px) {
+
+ .lh-lg {
+        line-height: 2.5 !important;
+        font-size: 1.4rem;
+    }
+        .img-size-1 {
+        width: 30rem !important;
+        height: 30rem !important;
+        /* object-fit: cover; */
+    }
+
+    .a-img {
+        width: 35rem !important;
+        height: 35rem !important;
+    }
+
+}

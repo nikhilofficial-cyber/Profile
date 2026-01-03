@@ -1,0 +1,298 @@
+body,
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+/* 
+div[id] {
+    scroll-margin-top: 60px;
+} */
+.vh100{
+    height: 100vh;
+}
+.surface-color {
+    background-color: #151d2d !important;
+    transition: transform 0.3s ease
+}
+
+.surface-color:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 12px 25px #279ae4 !important;
+}
+
+.surface-color2 {
+    background-color: #151d2d !important;
+    transition: transform 0.3s ease;
+}
+
+.surface-color2:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.left:hover {
+    transform: translateX(3px);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+
+.left::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #279ae4;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.65s ease;
+    z-index: 2;
+}
+
+.left:hover::before {
+    transform: scaleY(1);
+}
+
+.top-img,
+.target-h,
+.s-hr {
+    display: none;
+}
+
+
+
+.card {
+    overflow: hidden;
+    position: relative;
+}
+
+.view {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.5);
+}
+
+
+
+.view-o {
+    position: relative;
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .view-o:hover .view {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    z-index: 1;
+}
+
+
+
+.home-hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 56px);
+    animation: zoomHero 12s ease-in-out infinite alternate;
+}
+
+
+.home-hero .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(9, 17, 33, 0.75);
+    backdrop-filter: blur(3px);
+}
+
+.home-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes zoomHero {
+    from {
+        background-size: 100%;
+    }
+
+    to {
+        background-size: 130%;
+    }
+}
+
+#div1 img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -10;
+}
+
+
+
+.m-50 {
+    margin-top: 100px;
+    margin-bottom: 50px ;
+}
+
+.ts-red {
+    text-shadow:
+        0px 2px 6px #e42727;
+}
+
+
+.img-size {
+    width: 9rem;
+    height: 9rem;
+}
+
+.middle-img {
+    margin-top: -15%;
+    /* move upward */
+    margin-bottom: -15%;
+    /* move downward */
+    z-index: 1;
+    position: relative;
+}
+
+.img-size-1 {
+    width: 17.5rem !important;
+    height: 17.5rem !important;
+    /* object-fit: cover; */
+}
+
+.a-img {
+    width: 17.5rem !important;
+    height: 17.5rem !important;
+    object-fit: cover;
+}
+
+
+textarea {
+    resize: none;
+}
+
+input:focus+label,
+textarea:focus+label {
+    color: red !important;
+}
+
+#screenMode {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#gameCarousel img {
+    object-fit: cover;
+}
+
+
+footer {
+    margin-top: 70px;
+}
+
+.card-hover{
+    transition: all 0.3s ease;
+}
+
+.card-hover {
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+}
+
+.card-hover:hover .target-h {
+    display: block;
+}
+
+
+.nav-link {
+    position: relative;
+    color: white !important;
+}
+
+.nav-link.active {
+    color: red !important;
+    text-decoration: underline;
+}
+
+.progress {
+    height: 6px;
+    border-radius: 6px;
+}
+
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+    border-color: #e9e2ec !important;
+}
+
+.skill-icon-ring {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.skill-card:hover .skill-icon-ring {
+    box-shadow: 0 0 12px currentColor;
+}
+
+ /* #skills {
+    scroll-margin-top: 8rem !important;
+} */
+
+#hobbies {
+    scroll-margin-top: 3rem !important;
+}
+/* #about {
+    scroll-margin-top: 4rem !important;
+}  */
+
+.card-body {
+    margin-top: -12px;
+}
+
+.setup {
+    text-align: justify;
+}
+
+.m-9{
+    margin-top: -50px;
+}
