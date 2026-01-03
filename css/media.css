@@ -241,9 +241,10 @@
 
     .a-img {
         width: 28rem !important;
-        height: 28rem !important;
+        height: 100% !important;
     }
 
 
 }
+
 
